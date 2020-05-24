@@ -19,5 +19,25 @@
         <module>kmall-manage-dao</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>plus.knowing</groupId>
+                <artifactId>kmall-manage-service</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>plus.knowing</groupId>
+                <artifactId>kmall-manage-pojo</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>plus.knowing</groupId>
+                <artifactId>kmall-manage-dao</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 
 </project>
