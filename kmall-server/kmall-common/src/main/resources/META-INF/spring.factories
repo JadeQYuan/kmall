@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  plus.knowing.kmall.configuration.JacksonExtensionConfig,\
+  plus.knowing.kmall.configuration.LocalCorsConfiguration,\
+  plus.knowing.kmall.configuration.RestTemplateConfiguration,\
+  plus.knowing.kmall.response.CommonResponseBody
+
