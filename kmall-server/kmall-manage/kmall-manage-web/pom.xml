@@ -15,13 +15,6 @@
         <dependency>
             <groupId>plus.knowing</groupId>
             <artifactId>kmall-manage-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>plus.knowing</groupId>
-                    <artifactId>kmall-manage-pojo</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -19,6 +19,7 @@
         <dependency>
             <groupId>plus.knowing</groupId>
             <artifactId>kmall-manage-pojo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
